@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 152325151}
   - component: {fileID: 152325150}
   m_Layer: 0
-  m_Name: wall (1)
+  m_Name: RightWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,7 +675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214930279}
   m_Layer: 0
-  m_Name: row
+  m_Name: Row0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,7 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 274761921}
   m_Layer: 0
-  m_Name: row (4)
+  m_Name: Row4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1151,7 +1151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410856994}
   m_Layer: 0
-  m_Name: row (1)
+  m_Name: Row1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1577,7 +1577,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square (7)
+      value: Square6
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
@@ -1691,7 +1691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7308849632671494357, guid: 86c7f42a7dceefe48a67122f22a5cecf, type: 3}
       propertyPath: m_Name
-      value: hole
+      value: Hole4
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: 86c7f42a7dceefe48a67122f22a5cecf, type: 3}
       propertyPath: m_Pivot.x
@@ -1794,7 +1794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621445228}
   m_Layer: 0
-  m_Name: row (2)
+  m_Name: Row2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,7 +1836,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square
+      value: Square0
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
@@ -1938,7 +1938,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square (4)
+      value: Square3
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
@@ -2347,7 +2347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966980197}
   m_Layer: 0
-  m_Name: row (3)
+  m_Name: Row3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2729,7 +2729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276000396}
   m_Layer: 0
-  m_Name: row (5)
+  m_Name: Row5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2874,7 +2874,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square (3)
+      value: Square2
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
@@ -3114,7 +3114,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square (6)
+      value: Square5
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
@@ -4035,7 +4035,7 @@ GameObject:
   - component: {fileID: 1651005670}
   - component: {fileID: 1651005669}
   m_Layer: 0
-  m_Name: wall
+  m_Name: LeftWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5284,7 +5284,7 @@ GameObject:
   - component: {fileID: 1996082469}
   - component: {fileID: 1996082472}
   m_Layer: 0
-  m_Name: floor
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5537,7 +5537,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7308849632671494357, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Name
-      value: square (1)
+      value: Square1
       objectReference: {fileID: 0}
     - target: {fileID: 7970309532389767353, guid: abbde6ad85e194249a7fd2d8567ac6db, type: 3}
       propertyPath: m_Pivot.x
