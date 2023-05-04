@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private Button holeButton;
     [SerializeField] private Rigidbody2D piece;
     [SerializeField] private Button playButton;
-    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private ParticleSystem particles;
 
     public bool IsYellow { get; set; }
     private Vector3 initialPos;
@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
 
     public void OnClick()
     {
-        particleSystem.Stop();
+        particles.Stop();
         piece.transform.position = initialPos; 
         IsYellow = Convert.ToBoolean(UnityEngine.Random.Range(0, 2));
         if (IsYellow)
@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         if (IsYellow)
         {            
             text.text = "You Win!";
-            particleSystem.Play();
+            particles.Play();
         }
         else{
             text.text = "You Lose!";
