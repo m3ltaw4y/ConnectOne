@@ -52,7 +52,8 @@ public class GameController : MonoBehaviour
             text.text = "You Win!";
             particles.Play();
         }
-        else{
+        else
+        {
             text.text = "You Lose!";
         }
     }
