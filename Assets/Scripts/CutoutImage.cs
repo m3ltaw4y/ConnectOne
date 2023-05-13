@@ -2,18 +2,15 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-namespace DefaultNamespace
+public class CutoutImage : Image
 {
-    public class CutoutImage : Image
+    public override Material materialForRendering
     {
-        public override Material materialForRendering
+        get
         {
-            get
-            {
-                var mat = new Material(base.materialForRendering);
-                mat.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
-                return mat;
-            }
+            var mat = new Material(base.materialForRendering);
+            mat.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
+            return mat;
         }
     }
 }
