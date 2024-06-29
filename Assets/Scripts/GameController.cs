@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
     void Awake()
     {
         initialPos = piece.transform.position;
+        stats.Init();
     }
 
     public void OnClick()
