@@ -27,10 +27,10 @@ public class GameController : MonoBehaviour
         particles.Stop();
         piece.transform.position = initialPos; 
         IsYellow = Convert.ToBoolean(UnityEngine.Random.Range(0, 2));
+        holeButton.gameObject.SetActive(IsYellow);
         if (IsYellow)
         {
             text.text = "You are Yellow.\nYour turn";
-            holeButton.gameObject.SetActive(true);
         }
         else
         {
