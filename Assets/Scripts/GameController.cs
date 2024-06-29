@@ -6,16 +6,17 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI text;
-    [SerializeField] private Button holeButton;
-    [SerializeField] private Rigidbody2D piece;
-    [SerializeField] private Button playButton;
-    [SerializeField] private ParticleSystem particles;
-
+    [SerializeField] TextMeshProUGUI text;
+    [SerializeField] Button holeButton;
+    [SerializeField] Rigidbody2D piece;
+    [SerializeField] Button playButton;
+    [SerializeField] ParticleSystem particles;
+    [SerializeField] Stats stats;
+ 
     public bool IsYellow { get; set; }
-    private Vector3 initialPos;
+    Vector3 initialPos;
 
-    private void Awake()
+    void Awake()
     {
         initialPos = piece.transform.position;
     }
@@ -37,7 +38,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private IEnumerator DoYellowMove()
+    IEnumerator DoYellowMove()
     {
         yield return new WaitForSeconds(2);
         piece.simulated = true;
@@ -49,12 +50,15 @@ public class GameController : MonoBehaviour
         piece.simulated = false;
         if (IsYellow)
         {            
-            text.text = "You Win!";
             particles.Play();
+            stats.OnWin();
+            text.text = "You Win!";
         }
         else
         {
+            stats.OnLose();
             text.text = "You Lose!";
         }
+        stats.LifeTimeStats();
     }
 }
