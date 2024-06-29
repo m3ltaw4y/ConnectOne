@@ -6292,6 +6292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particles
       objectReference: {fileID: 0}
+    - target: {fileID: 5303841417566189390, guid: b8316e82cc4f23649a60bb6dcca3a0fd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ddcfb44c0f9733c458d87320a6910ad3, type: 2}
     - target: {fileID: 5303841417566189391, guid: b8316e82cc4f23649a60bb6dcca3a0fd, type: 3}
       propertyPath: ShapeModule.enabled
       value: 1
