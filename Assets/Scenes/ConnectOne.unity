@@ -6300,6 +6300,10 @@ PrefabInstance:
       propertyPath: ShapeModule.enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5303841417566189391, guid: b8316e82cc4f23649a60bb6dcca3a0fd, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 400
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8316e82cc4f23649a60bb6dcca3a0fd, type: 3}
 --- !u!1001 &7967693554611803077
